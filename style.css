@@ -1,9 +1,46 @@
 * {
-  font-family: century gothic;
+  font-family: "Open Sans", sans-serif;
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box  ;
+  box-sizing: border-box;
 }
-html{
+html {
   font-size: 62.5%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: bolder;
+}
+.nav-title span {
+  color: #fd6e0a;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 4rem;
+}
+nav ul li a {
+  color: var(--dark-02, #474747);
+  font-size: 2rem;
+
+  text-decoration: none;
+}
+nav ul li button {
+  padding: 1.8rem 3.5rem;
+  border-radius: 0.5rem;
+  background: #fd6e0a;
+  outline: none;
+  border: none;
+  color: white;
 }
