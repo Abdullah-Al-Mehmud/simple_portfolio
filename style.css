@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
 }
+/* nav bar starts */
 nav {
   display: flex;
   justify-content: space-around;
@@ -44,3 +45,61 @@ nav ul li button {
   border: none;
   color: white;
 }
+/* nav bar ends */
+
+/* header starts */
+
+header {
+  background: #fff8f3;
+}
+.hero-sec {
+  padding: 3rem 3rem 3rem 15rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-sec div h3 {
+  color: var(--dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.hero-sec div h1 {
+  color: var(--dark-01, #181818);
+  margin-top: 1.5rem;
+  font-size: 85px;
+
+  font-weight: 700;
+}
+.hero-sec div p {
+  color: var(--dark-03, #757575);
+  margin-top: 1.5rem;
+  font-size: 16px;
+}
+.hero-sec .hero-btn1 {
+  padding: 1.8rem 3.5rem;
+  border-radius: 0.5rem;
+  background: #fd6e0a;
+  outline: none;
+  border: none;
+  color: white;
+  margin-top: 1.5rem;
+}
+.hero-sec .hero-btn2 {
+  padding: 1.8rem 3.5rem;
+  border-radius: 0.5rem;
+  background: #fd6e0a;
+  outline: none;
+  border: none;
+  color: white;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+
+.hero-sec .hero-img {
+  width: 584px;
+  height: 676px;
+}
+/* header ends */
